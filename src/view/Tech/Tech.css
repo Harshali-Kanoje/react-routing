@@ -1,0 +1,31 @@
+.techimg{
+    height: 600px;
+    margin: 20px;
+}
+
+.techimg img{
+    height: 100%;
+}
+
+.head{
+    font-size: 65px;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.para{
+    font-size: 18px;
+}
+
+.btn{
+    background-color: #53c1de;
+  color: #242222;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+
+}

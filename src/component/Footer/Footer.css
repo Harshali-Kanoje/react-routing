@@ -1,0 +1,16 @@
+.footerContent{
+    text-align: center;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0 0 3px 0;
+}
+
+.footerContent ,a, i{
+    margin: 0px 15px;
+    font-size: 30px;
+}
+
+.footerContent p{
+    /* margin: 0px 15px; */
+    font-size: 20px;
+}
