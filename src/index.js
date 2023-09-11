@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Tech from './view/Tech/Tech';
-import Navbar from './component/Navbar/Navbar';
-import Footer from './component/Footer/Footer';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 
 const router = createBrowserRouter(
   [
@@ -26,8 +25,6 @@ const router = createBrowserRouter(
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Navbar/>
     <RouterProvider router={router}/>
-    <Footer/>
   </>
 );

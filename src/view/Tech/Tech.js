@@ -1,5 +1,8 @@
 import './Tech.css'
 import React from 'react'
+import Navbar from './../../component/Navbar/Navbar';
+import Footer from './../../component/Footer/Footer';
+
 const mainDivStyle = {
   display : "flex",
   justifyContent : "space-between",
@@ -8,16 +11,17 @@ const mainDivStyle = {
   color: "white"
 }
 
-
 const techcontent = {
   margin : "20px"
 }
 
 export default function Tech({heading, pageTitle, imgSrc,para }) {
   return (
+    <>
+    <Navbar/>
     <div style={mainDivStyle}>
       <div className="techimg">
-        <img src={imgSrc} />
+        <img src={imgSrc} alt='img'/>
       </div>
       <div style={techcontent}>
         <h1 className='head'>{heading}</h1>
@@ -26,6 +30,8 @@ export default function Tech({heading, pageTitle, imgSrc,para }) {
         <button className='btn'>Know More</button>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 
